@@ -1,16 +1,16 @@
 /*map & map-get*/
 $redes:(
-    escribinos: color green,
-    facebook:  color blue,
+    escribinos:green,
+    facebook:  blue,
     
 )
 $estilos:(
     1 rem: 1 rem,
 )
 
-@each $green $color in $redes {
-    .btn--#{$green}{
-    background-color:$color,
-    }
+@each $green $blue $estilos in $redes {
+    .btn--#{$green} {
+    background-color:#ffff
+    }}
     1 rem: map-get ($estilos, 1 rem)
 }
