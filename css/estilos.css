@@ -10,6 +10,10 @@
     font-family: 'Pacifico', cursive;
     font-size: 50px;
 }
+.subrayado{
+    position: relative;
+    left:450px;
+}
 
 
 /*fotos index - tamaños*/
@@ -321,8 +325,6 @@ position: relative;
     
 }
 
-
-
 /*footer*/
 .seguinos{
 position:sticky;
@@ -340,7 +342,6 @@ pic_footer{
     left:1300px;
     bottom:200px;
 }
-
 
 .whatsapp{
    display: flex;
