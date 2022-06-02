@@ -246,11 +246,6 @@ position: relative;
 
 
 
-
-
-
-
-
 /* ubicación labels*/
 /*vasos térmicos*/
 
@@ -358,6 +353,22 @@ pic_footer{
     height: 50px;
     width: 50px;
 }
+.logoInstagram{
+    display: flex;
+    top:100px;
+    right:100px;
+    height: 50px;
+    width: 50px;
+}
+
+/*back to index icons*/
+/*pestaña vasos*/
+.flecha{
+    position:absolute;
+   bottom:30px;
+}
+
+
 
 
 
@@ -402,6 +413,10 @@ pic_footer{
 
 /*index*/
 /*fotos index*/
+.subrayado{
+    position:relative;
+    left:10px;
+}
 .fotovasoindex{
     position: relative;
     bottom:1px;
@@ -535,5 +550,6 @@ bottom:1300px;
 
 
 
-
 }}
+
+
