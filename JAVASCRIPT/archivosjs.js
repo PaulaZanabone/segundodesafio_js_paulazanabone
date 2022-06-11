@@ -39,3 +39,6 @@ for (let i = 0; i < limite; i++) {
      console.log("Correo invalido.")
      seguimos = confirm("¿Olvidaste la contraseña?")
  }
+
+
+ 
